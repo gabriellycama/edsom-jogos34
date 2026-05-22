@@ -1,0 +1,64 @@
+body {
+    background-color: #1a1a1a;
+    color: #ff0000;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    }
+    .arena {
+    background: #262626;
+    padding: 25px;
+    border: 2px solid #444;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    }
+    h2 {
+    text-align: center;
+    color: #7700ff;
+    }
+    .controles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /*Ele define o espaço apenas entre os elementos filhos.*/
+    margin-bottom: 20px;
+    }
+    input, select {
+    padding: 10px;
+    background: #333;
+    border: 1px solid #555;
+    color: white;
+    border-radius: 5px;
+    }
+    button {
+    padding: 12px;
+    background: #ff9900;
+    border: none;
+    color: #1a1a1a;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    }
+    button:hover {
+    background: #e68a00;
+    }
+    #log {
+    background: #000;
+    padding: 15px;
+    border-radius: 5px;
+    min-height: 100px; /*define uma altura mínima para um elemento.*/
+    border-left: 4px solid #ff9900; /*Diz ao navegador para aplicar a borda apenas no lado esquerdo.*/
+    
+    }
+    .critico {
+    color: #ff4444;
+    font-weight: bold; /*define a espessura da sua letra*/
+    }
+    .sucesso {
+    color: #44ff44;
+    }
+    .derrota {
+    color: #888;
+    font-style: italic;
+    }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Arena RPG JavaScript</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="arena">
+<h2>⚔️ ARENA DOM ⚔️</h2>
+
+<div class="controles">
+<label>Escolha sua Classe:</label>
+<select id="classe">
+<option value="guerreiro">Guerreiro</option>
+<option value="mago">Mago</option>
+<option value="arqueiro">Arqueiro</option>
+</select>
+
+<label>Equipe sua Arma:</label>
+<input type="text" id="arma" placeholder="Ex: Espada, Cajado, Arco...">
+
+<button onclick="lutar()">INICIAR COMBATE!</button>
+</div>
+
+<div id="log">Aguardando desafiante...</div>
+</div>
+
+<script src="./batalha.js"></script>
+
+</body>
+</html>
